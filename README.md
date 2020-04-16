@@ -44,6 +44,7 @@ PyDicom, Pandas, Jupyter, Tensorflow 1.15, OpenCV 4.2.0, Python 3.5+, Numpy, Sci
 To perform clustering on the learned representations of COVID-Net and DenseNet, take these steps... 
 </p>
 
+<!--
 <br>
 <p align="center">
 <b>List of all contributors</b>
@@ -76,3 +77,4 @@ Still being updated!
 <p>
   *-contact for the page
 </p>
+-->
