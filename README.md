@@ -36,12 +36,12 @@ PyDicom, Pandas, Jupyter, Tensorflow 1.15, OpenCV 4.2.0, Python 3.5+, Numpy, Sci
 
 <br>
 <p align="center">
-<b>Usage</b>
+<b>Usage (A clear guide to how to actually run these scripts)</b>
 <br>
 </p>
 
 <p>
-*A clear guide to how to actually run these scripts
+To perform clustering on the learned representations of COVID-Net and DenseNet, take these steps... 
 </p>
 
 <br>
@@ -53,7 +53,6 @@ Still being updated!
 
 <p>
   <ul style="list-style-type:circle">
-    <li>tmerkh@g.ucla.edu*</li>
     <li>jhaddock@math.ucla.edu</li>
     <li>ksmill327@gmail.com</li>
     <li>alona.kryshchenko@csuci.edu</li>
@@ -70,6 +69,7 @@ Still being updated!
     <li>madushani67@gmail.com</li>
     <li>nerutt@gmail.com</li>
     <li>lara.kassab@colostate.edu</li>
+    <li>tmerkh@g.ucla.edu*</li>
   </ul>
 </p>
 
