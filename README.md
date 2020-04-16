@@ -10,11 +10,14 @@ Something
 <b>Files Contained</b>
 <br>
 </p>
-[kmeans_COVIDnet_Representations.m](https://github.com/ThomasMerkh/covid-ssnmf/blob/master/kmeans_COVIDnet_Representations.m) - Seomthing
 
-[kmeans_DenseNet_Representations.m](https://github.com/ThomasMerkh/covid-ssnmf/blob/master/kmeans_DenseNet_Representations.m) - Something more
 
-make_COVIDx_labels.py - This code reads in test_COVIDx.txt and train_COVIDx.txt and creates .mat files for the labels
+<ul style="list-style-type:circle">
+  <li>kmeans_DenseNet_Representations.m</li>
+  <li>kmeans_COVIDnet_Representations.m</li>
+  <li>make_COVIDx_labels.py - reads in test_COVIDx.txt and train_COVIDx.txt and creates .mat files for the labels</li>
+</ul>
+<br>
 
 <p align="center">
 <b>Requirements to run each script</b>
@@ -30,7 +33,7 @@ To generate the data set for COVID-Net and use COVID-Net:
 * Numpy
 * Scikit-Learn
 * Matplotlib
-
+<br>
 
 <p align="center">
 <b>Usage</b>
@@ -39,10 +42,7 @@ To generate the data set for COVID-Net and use COVID-Net:
 An clear guide to how to actually run these scripts
 
 
-
-
-
-
+<br>
 <p align="center">
 <b>List of Contributors</b>
 Still being updated!
@@ -54,5 +54,3 @@ Still being updated!
   <li>Person 2</li>
   <li>Person 3</li>
 </ul>
-
-
