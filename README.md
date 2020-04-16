@@ -46,17 +46,33 @@ PyDicom, Pandas, Jupyter, Tensorflow 1.15, OpenCV 4.2.0, Python 3.5+, Numpy, Sci
 
 <br>
 <p align="center">
-<b>List of Contributors</b>
+<b>List of all contributors</b>
 Still being updated!
 <br>
 </p>
 
 <p>
   <ul style="list-style-type:circle">
-    <li>tmerkh@g.ucla.edu</li>
+    <li>tmerkh@g.ucla.edu*</li>
     <li>jhaddock@math.ucla.edu</li>
     <li>ksmill327@gmail.com</li>
     <li>alona.kryshchenko@csuci.edu</li>
-    <li>Many are missing, please add yourselves or let me know if you can't!</li>
+    <li>kleonard.ci@gmail.com</li>
+    <li>es5223@nyu.edu</li>
+    <li>cwang27@ua.edu</li>
+    <li>rachel.grotheer@goucher.edu</li>
+    <li>psalanevich@math.ucla.edu</li>
+    <li>yotamya@math.ucla.edu</li>
+    <li>wenli@math.ucla.edu</li>
+    <li>chu@math.ucla.edu</li>
+    <li>shaydeu@math.ucla.edu</li>
+    <li>mijuahn@gmail.com</li>
+    <li>madushani67@gmail.com</li>
+    <li>nerutt@gmail.com</li>
+    <li>lara.kassab@colostate.edu</li>
   </ul>
+</p>
+
+<p>
+  *-contact for the page
 </p>
