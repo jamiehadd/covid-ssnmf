@@ -23,16 +23,27 @@ Something
 <b>Requirements to run each script</b>
 <br>
 </p>
+
 To generate the data set for COVID-Net and use COVID-Net:
+
 * PyDicom
+
 * Pandas
+
 * Jupyter
+
 * Tested with Tensorflow 1.13 and 1.15
+
 * OpenCV 4.2.0
+
 * Python 3.6
+
 * Numpy
+
 * Scikit-Learn
+
 * Matplotlib
+
 <br>
 
 <p align="center">
