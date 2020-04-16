@@ -3,14 +3,12 @@
 <b>Purpose of this repository</b>
 <br>
 </p>
-
-Something
+This repository contains scripts used learn interpretable features from X-Ray imaging data originating from various sources.  To be expanded upon... 
 
 <p align="center">
 <b>Files Contained</b>
 <br>
 </p>
-
 
 <ul style="list-style-type:circle">
   <li>kmeans_DenseNet_Representations.m</li>
@@ -23,34 +21,15 @@ Something
 <b>Requirements to run each script</b>
 <br>
 </p>
-
 To generate the data set for COVID-Net and use COVID-Net:
-
-* PyDicom
-
-* Pandas
-
-* Jupyter
-
-* Tested with Tensorflow 1.13 and 1.15
-
-* OpenCV 4.2.0
-
-* Python 3.6
-
-* Numpy
-
-* Scikit-Learn
-
-* Matplotlib
-
+PyDicom, Pandas, Jupyter, Tensorflow 1.15, OpenCV 4.2.0, Python 3.5+, Numpy, Scikit-Learn, Matplotlib
 <br>
 
 <p align="center">
 <b>Usage</b>
 <br>
 </p>
-An clear guide to how to actually run these scripts
+*A clear guide to how to actually run these scripts
 
 
 <br>
