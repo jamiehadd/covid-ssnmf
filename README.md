@@ -4,7 +4,7 @@
 <br>
 </p>
 <p>
-This repository contains scripts used to learn interpretable features from X-Ray imaging data originating from various sources related to the COVID-1 pandemic. 
+This repository contains scripts used to learn interpretable features from X-Ray imaging data originating from various sources related to the COVID-19 pandemic. 
 </p>
 
 <br>
@@ -55,7 +55,6 @@ To perform clustering on the learned representations of COVID-Net:
 <br>
 <p align="center">
 <b>List of all contributors</b>
-Still being updated!
 <br>
 </p>
 
