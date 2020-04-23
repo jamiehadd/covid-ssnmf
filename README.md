@@ -15,10 +15,9 @@ This repository contains scripts used to learn interpretable features from X-Ray
 
 <p>
 <ul style="list-style-type:circle">
-  <li>Extract_COVIDnet_Features.py - Utilizes the pretrained COVID-Net models and extracts the learned representations of the data at the final 3 layers of COVID-Net.  The header of this script contains information on how to run it. </li>
-  <li>kmeans_DenseNet_Representations.m - Performs k-means clustering on the learned representation of the data for DenseNet [Add Reference], and computes the average purity of clusters over each different initialization of k-means.  </li>
-  <li>kmeans_COVIDnet_Representations.m -  Performs k-means clustering on the learned representations of the data for COVID-Net and computes the average purity of clusters over each different initialization of k-means.</li>
-  <li>make_COVIDx_labels.py - Reads in test_COVIDx.txt and train_COVIDx.txt and creates .mat files for the labels</li>
+  <li>Extract_COVIDnet_Features.py - Utilizes the pretrained COVID-Net models and extracts the learned representations of the data at the final 3 layers of COVID-Net.  The header of this script contains information on how to run it. Found in the "covidnet_representations" directory.</li>
+  <li>kmeans_DenseNet_Representations.m - Performs k-means clustering on the learned representation of the data for DenseNet [Add Reference], and computes the average purity of clusters over each different initialization of k-means.  Found in the "covidnet_representations" directory.  </li>
+  <li>kmeans_COVIDnet_Representations.m -  Performs k-means clustering on the learned representations of the data for COVID-Net and computes the average purity of clusters over each different initialization of k-means.  Found in the "covidnet_representations" directory.</li>
   <li>evaluateRepresentation.m - Applies spectral and k-means clustering to the learned representations of DenseNet and COVID-Net. Found in "representation_evaluations" directory.</li>
   <li>mapCompClus2Class.m - Computes an <i>optimal</i> permutation of the computed clusters when the ground truth labels are known. Found in "representation_evaluations" directory.</li>
   <li>ssnmf_variants.ipynb - Several different algorithms for performing SSNMF. Found in the "ssnmf_variants" directory.</li>
