@@ -19,21 +19,11 @@ This repository contains scripts used to learn interpretable features from X-Ray
   <li>kmeans_DenseNet_Representations.m - Performs k-means clustering on the learned representation of the data for DenseNet [Add Reference], and computes the average purity of clusters over each different initialization of k-means.  </li>
   <li>kmeans_COVIDnet_Representations.m -  Performs k-means clustering on the learned representations of the data for COVID-Net and computes the average purity of clusters over each different initialization of k-means.</li>
   <li>make_COVIDx_labels.py - Reads in test_COVIDx.txt and train_COVIDx.txt and creates .mat files for the labels</li>
+  <li>evaluateRepresentation.m - Applies spectral and k-means clustering to the learned representations of DenseNet and COVID-Net. Found in "representation_evaluations" directory.</li>
+  <li>mapCompClus2Class.m - Computes an <i>optimal</i> permutation of the computed clusters when the ground truth labels are known. Found in "representation_evaluations" directory.</li>
+  <li>ssnmf_variants.ipynb - Several different algorithms for performing SSNMF. Found in the "ssnmf_variants" directory.</li>
 </ul>
 </p>
-
-<br>
-<p align="center">
-<b>Requirements</b>
-<br>
-</p>
-
-<p>
-  <ul>
-    <li> To generate the data set for COVID-Net and use COVID-Net - PyDicom, Pandas, Jupyter, Tensorflow 1.15, OpenCV 4.2.0, Python 3.5+, Numpy, Scikit-Learn, Matplotlib </li>
-  </ul>
-</p>
-
 
 <br>
 <p align="center">
@@ -49,15 +39,16 @@ To perform clustering on the learned representations of COVID-Net:
     <li> Run the script make_COVIDx_labels.py to generate .mat files containing the numerical labels for each data point.  This is needed when computing the average purity for k-means clustering.</li>
     <li> Run the Octave (MATLAB) script kmeans_COVIDnet_Representations.m after adjusting the load paths and variables as appropriate to the .mat files generated in step 2 and 3.  Warning: The 4/15/2020 update of COVID-Net changed the number and type of classes being used in the classification task.</li>
   </ol>
+
+<br>
+To perform clustering on the learned representations... *To be updated
+
+
+<br>
+To perform SSNMF on... *To be updated 
 </p>
 
 <!--
-<br>
-<p align="center">
-<b>List of all contributors</b>
-<br>
-</p>
-
 <p>
   <ul style="list-style-type:circle">
     <li>jhaddock@math.ucla.edu</li>
@@ -78,9 +69,5 @@ To perform clustering on the learned representations of COVID-Net:
     <li>lara.kassab@colostate.edu</li>
     <li>tmerkh@g.ucla.edu*</li>
   </ul>
-</p>
-
-<p>
-  *-contact for the page
 </p>
 -->
