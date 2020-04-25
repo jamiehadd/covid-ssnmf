@@ -85,7 +85,7 @@ class SSNMF:
             reconerrs = np.empty(numiters)
             classerrs = np.empty(numiters)
         
-        if self.Y is not None:
+        if self.Y is None:
             #if no label matrix provided, train unsupervised model instead
             print('Label matrix Y not provided: running NMF multiplicative updates instead.')
             if saveerrs:
@@ -122,7 +122,7 @@ class SSNMF:
             reconerrs = np.empty(numiters)
             classerrs = np.empty(numiters)
         
-        if self.Y is not None:
+        if self.Y is None:
             #if no label matrix provided, train unsupervised model instead
             print('Label matrix Y not provided: running NMF multiplicative updates instead.')
             if saveerrs:
